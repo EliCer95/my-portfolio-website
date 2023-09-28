@@ -2,6 +2,14 @@ body {
   background-color: #f6fce0;
 }
 
+h2 {
+  font-family: indie flower;
+  font-size: 70px;
+}
+
+p {
+  font-family: monospace;
+}
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -13,7 +21,7 @@ body {
   font-family: indie flower;
   font-size: 30px;
   letter-spacing: 0.4rem;
-  background-color: #4a5a123b;
+  background-color: #4557021c;
 }
 
 a.nav-links {
@@ -50,5 +58,20 @@ a.nav-links:hover {
 .description h4 {
   font-size: 20px;
   text-align: center;
+  font-family: indie flower;
+}
+
+.subheading {
+  text-align: center;
+  font-family: indie flower;
+  font-size: 30px;
+  letter-spacing: 0.4rem;
+}
+
+.btn-branding-outline {
+  padding: 15px;
+  background-color: green;
+  color: #f6fce0;
+  border-radius: 4px;
   font-family: indie flower;
 }
