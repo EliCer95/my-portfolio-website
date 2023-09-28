@@ -34,7 +34,7 @@ a.nav-links:hover {
 }
 
 .hero {
-  background: center/ cover url("bg-transparent@1.25x.png");
+  background: center/ cover url("images/bg-transparent@1.25x.png");
   display: flex;
   min-height: 100vh;
   width: 100%;
@@ -61,6 +61,9 @@ a.nav-links:hover {
   font-family: indie flower;
 }
 
+.project-description {
+  padding: 0px 30px;
+}
 .subheading {
   text-align: center;
   font-family: indie flower;
@@ -74,4 +77,9 @@ a.nav-links:hover {
   color: #f6fce0;
   border-radius: 4px;
   font-family: indie flower;
+}
+
+img {
+  max-width: 600px;
+  border-radius: 10px;
 }
