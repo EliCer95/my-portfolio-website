@@ -12,9 +12,35 @@ h2 {
   font-size: 70px;
 }
 
-p {
+h3 {
+  font-family: indie flower;
+  font-size: 35px;
+}
+
+ul {
   font-family: monospace;
 }
+p {
+  font-family: monospace;
+  line-height: 1.5;
+}
+
+img {
+  max-width: 600px;
+  border-radius: 10px;
+}
+a.contact-links {
+  text-decoration: none;
+  color: rgb(16, 70, 16);
+  font-family: monospace;
+  transition: all 200ms ease-in-out;
+}
+
+a.contact-links:hover {
+  color: rgb(90, 140, 90);
+  font-size: larger;
+}
+
 .navigation {
   display: flex;
   justify-content: space-around;
@@ -30,12 +56,15 @@ p {
 }
 
 a.nav-links {
+  font-family: indie flower;
   text-decoration: none;
   color: rgb(16, 70, 16);
+  transition: all 200ms ease-in-out;
 }
 
 a.nav-links:hover {
   color: rgb(90, 140, 90);
+  font-size: smaller;
 }
 
 .hero {
@@ -70,11 +99,9 @@ a.nav-links:hover {
   padding: 0px 30px;
   text-align: center;
 }
-.subheading {
+h1.subheading {
   text-align: center;
   font-family: indie flower;
-  font-size: 30px;
-  letter-spacing: 0.4rem;
   padding-top: 80px;
 }
 
@@ -86,15 +113,29 @@ a.nav-links:hover {
   font-family: indie flower;
 }
 
-img {
-  max-width: 600px;
-  border-radius: 10px;
+.introduction {
+  margin-top: 150px;
 }
+
 .project-row {
   margin: 100px 0px;
 }
 
+.contact-info {
+  text-align: center;
+  margin-top: 150px;
+}
+
 @media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
   a.nav-links {
     font-size: 20px;
   }
@@ -118,6 +159,15 @@ img {
     letter-spacing: 0;
   }
 
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
   .description h1 {
     font-size: 50px;
   }
@@ -126,24 +176,11 @@ img {
     font-size: 25px;
   }
 
-  .subheading {
+  h1.subheading {
     font-size: 20px;
   }
 
   h2 {
     font-size: 40px;
   }
-}
-
-h3 {
-  font-family: indie flower;
-  font-size: 35px;
-}
-
-.introduction {
-  margin-top: 150px;
-}
-
-ul {
-  font-family: monospace;
 }
