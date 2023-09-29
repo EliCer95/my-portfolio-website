@@ -63,6 +63,7 @@ a.nav-links:hover {
 
 .project-description {
   padding: 0px 30px;
+  text-align: center;
 }
 .subheading {
   text-align: center;
@@ -83,4 +84,7 @@ a.nav-links:hover {
 img {
   max-width: 600px;
   border-radius: 10px;
+}
+.project-row {
+  margin: 100px 0px;
 }
