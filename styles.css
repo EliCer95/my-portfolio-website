@@ -1,6 +1,10 @@
+:root {
+  --primary-color: #333;
+}
+
 body {
   background-color: #ece7e1;
-  color: #333;
+  color: var(--primary-color);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -8,7 +12,7 @@ body {
 }
 
 i {
-  color: #333;
+  color: var(--primary-color);
   font-size: 30px;
   margin-right: 10px;
 }
@@ -24,12 +28,12 @@ i {
   font-family: Rubik Glitch;
   line-height: 1;
   text-decoration: none;
-  color: #333;
+  color: var(--primary-color);
 }
 
 .home {
   text-decoration: none;
-  color: #333;
+  color: var(--primary-color);
   font-family: montserrat;
   font-size: 50px;
 }
@@ -58,7 +62,7 @@ i {
 .line {
   height: 250px;
   width: 5px;
-  background-color: #333;
+  background-color: var(--primary-color);
   border-radius: 10px;
   margin: 20px;
   align-self: center;
@@ -67,7 +71,7 @@ i {
 footer {
   position: absolute;
   bottom: 0;
-  color: #333;
+  color: var(--primary-color);
   font-family: montserrat;
 }
 @media (max-width: 800px) {
@@ -85,7 +89,6 @@ footer {
   .line {
     width: 80vw;
     height: 5px;
-    background-color: #333;
     margin: 10px;
   }
 
