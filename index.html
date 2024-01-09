@@ -3,200 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Eli is a front-end engineer based in Portugal."
-    />
-    <title>Front-end developer - Eliska Cerna</title>
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fuggles&family=Indie+Flower&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,500;0,700;1,400;1,500&display=swap"
-      rel="stylesheet"
-    />
-    <script
-      src="https://kit.fontawesome.com/6bde7b14f6.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
+    <title>Eli's portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
   </head>
   <body>
-    <main class="mb-5">
-      <div class="navigation">
-        <a href="index.html" class="nav-links" title="Homepage">HOME</a>
-        <a href="index.html#projects" class="nav-links" title="Projects page"
-          >PROJECTS</a
-        >
-        <a href="about.html" class="nav-links" title="About page">ABOUT</a>
-        <a href="contact.html" class="nav-links" title="Contact page"
-          >CONTACT</a
-        >
+    <div class="container">
+      <div class="section-left">
+        <div><a href="projects.html" class="nav-item">PROJECTS</a></div>
+        <div><a href="about.html" class="nav-item">ABOUT</a></div>
+        <div><a href="contact.html" class="nav-item">CONTACT</a></div>
       </div>
-
-      <div class="hero">
-        <div class="description">
-          <h1>Hi, I am Eli</h1>
-          <h2>a front-end developer from Czech Republic</h2>
-          <!-- <h4>Click 📢 for the full experience</h4> -->
-        </div>
+      <div class="line"></div>
+      <div class="section-right">
+        <div class="name">Eliška Černá</div>
+        <p>
+          Front-end developer with passion for minimalist design and freestyle
+          dance.
+        </p>
       </div>
-      <h1 class="subheading" id="projects">🌿PROJECTS🌿</h1>
-
-      <div class="container">
-        <hr />
-        <div class="row project-row">
-          <div class="col d-none d-lg-block">
-            <img
-              src="images/weather-app.png"
-              class="img-fluid"
-              alt="Weather App"
-            />
-          </div>
-          <div class="col">
-            <div class="project-description">
-              <h2>JS weather app</h2>
-              <p>
-                This is a web application that displays the current and upcoming
-                weather conditions in a specified city. It is open-source and
-                available on GitHub and it is hosted on Netlify. I used the
-                following technologies while building this application.
-              </p>
-              <div>
-                <img src="images/html.png" width="50px" class="m-1" />
-                <img src="images/css.png" width="50px" class="m-1" />
-                <img src="images/js.png" width="50px" class="m-1" />
-                <img src="images/boot.png" width="50px" class="m-1" />
-                <img src="images/api.png" width="50px" class="m-1" />
-                <img src="images/github.png" width="50px" class="m-1" />
-                <img src="images/git.png" width="50px" class="m-1" />
-                <img src="images/netlify.png" width="50px" class="m-1" />
-              </div>
-              <a
-                href="https://determined-franklin-e445fe.netlify.app/"
-                target="_blank"
-                class="btn btn-branding-outline mt-3"
-                >Launch project</a
-              >
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div class="row project-row">
-          <div class="col">
-            <div class="project-description">
-              <h2>React weather app</h2>
-              <p>
-                This is a web application that displays the current and upcoming
-                weather conditions in a specified city. It is open-source and
-                available on GitHub and it is hosted on Netlify. I used the
-                following technologies while building this application.
-              </p>
-              <div>
-                <img src="images/html.png" width="50px" class="m-1" />
-                <img src="images/css.png" width="50px" class="m-1" />
-                <img src="images/js.png" width="50px" class="m-1" />
-                <img src="images/boot.png" width="50px" class="m-1" />
-                <img src="images/api.png" width="50px" class="m-1" />
-                <img src="images/react.png" width="50px" class="m-1" />
-                <img src="images/github.png" width="50px" class="m-1" />
-                <img src="images/git.png" width="50px" class="m-1" />
-                <img src="images/netlify.png" width="50px" class="m-1" />
-              </div>
-              <a
-                href="https://helpful-kringle-af17c0.netlify.app/"
-                target="_blank"
-                class="btn btn-branding-outline mt-3"
-                >Launch project</a
-              >
-            </div>
-          </div>
-          <div class="col d-none d-lg-block">
-            <img
-              src="images/react-weather-app.png"
-              class="img-fluid"
-              alt="Weather App"
-            />
-          </div>
-        </div>
-        <hr />
-        <div class="row project-row">
-          <div class="col d-none d-lg-block">
-            <img
-              src="images/dictionary-app.png"
-              class="img-fluid"
-              alt="Weather App"
-            />
-          </div>
-          <div class="col">
-            <div class="project-description">
-              <h2>React dictionary app</h2>
-              <p>
-                This is a web application that shows definitions, synonyms,
-                pictures and other information about a specific word. It is
-                open-source and available on GitHub and it is hosted on Netlify.
-                I used the following technologies while building this
-                application.
-              </p>
-              <div>
-                <img src="images/html.png" width="50px" class="m-1" />
-                <img src="images/css.png" width="50px" class="m-1" />
-                <img src="images/js.png" width="50px" class="m-1" />
-                <img src="images/boot.png" width="50px" class="m-1" />
-                <img src="images/api.png" width="50px" class="m-1" />
-                <img src="images/react.png" width="50px" class="m-1" />
-                <img src="images/github.png" width="50px" class="m-1" />
-                <img src="images/git.png" width="50px" class="m-1" />
-                <img src="images/netlify.png" width="50px" class="m-1" />
-              </div>
-              <a
-                href="https://startling-raindrop-bb5e74.netlify.app/"
-                class="btn btn-branding-outline mt-3"
-                target="_blank"
-                >Launch project</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-
-    <footer>
-      <div class="d-flex justify-content-center pt-3">
-        <a
-          href="https://github.com/EliCer95"
-          target="_blank"
-          class="social-links"
-          ><i class="fa-brands fa-github" style="color: #f5fce0"></i
-        ></a>
-        <a
-          href="https://www.linkedin.com/in/eli%C5%A1ka-%C4%8Dern%C3%A1-632400a8/"
-          target="_blank"
-          class="social-links"
-        >
-          <i class="fa-brands fa-linkedin-in" style="color: #f5fce0"></i
-        ></a>
-        <a
-          href="mailto:eliskacerna95@gmail.com"
-          target="_blank"
-          class="social-links"
-          ><i
-            class="fa fa-envelope"
-            style="color: #f5fce0"
-            aria-hidden="true"
-          ></i
-        ></a>
-      </div>
-      <div class="copyright d-flex justify-content-center">
-        ©2023, Coded by Eliska Cerna
-      </div>
-    </footer>
+    </div>
+    <footer>©2024</footer>
   </body>
 </html>
