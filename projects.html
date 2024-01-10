@@ -9,8 +9,12 @@
   <body>
     <div class="container">
       <div class="section-left">
-        <div><a href="projects.html" class="nav-item">PROJECTS</a></div>
-        <a href="index.html" class="home">HOME</a>
+        <div class="first-nav-item">
+          <a href="projects.html" class="nav-item">PROJECTS</a>
+        </div>
+        <div class="second-nav-item">
+          <a href="index.html" class="home">HOME</a>
+        </div>
       </div>
       <div class="line"></div>
       <div class="section-right">
@@ -48,5 +52,13 @@
       </div>
     </div>
     <footer>©2024</footer>
+    <script>
+      document.body.className += "js-loading";
+      window.addEventListener("load", showPage, false);
+
+      function showPage() {
+        document.body.className = document.body.className.replace("js-loading");
+      }
+    </script>
   </body>
 </html>

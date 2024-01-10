@@ -29,5 +29,13 @@
       </div>
     </div>
     <footer>©2024</footer>
+    <script>
+      document.body.className += "js-loading";
+      window.addEventListener("load", showPage, false);
+
+      function showPage() {
+        document.body.className = document.body.className.replace("js-loading");
+      }
+    </script>
   </body>
 </html>
