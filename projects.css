@@ -2,6 +2,27 @@
   --primary-color: #333;
 }
 
+@font-face {
+  font-family: "Rubik Glitch";
+  src: url(fonts/RubikGlitch-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(fonts/Montserrat-Black.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
 body {
   background-color: #ece7e1;
   color: var(--primary-color);

@@ -9,6 +9,20 @@
   font-weight: 100;
 }
 
+@font-face {
+  font-family: "montserrat";
+  src: url(fonts/Montserrat-Regular.ttf);
+  font-style: normal;
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(fonts/Montserrat-Black.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
 body {
   background-color: #ece7e1;
   color: var(--primary-color);
@@ -60,7 +74,7 @@ i {
 }
 
 .name {
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 0.3rem;
   font-size: 20px;
   margin-bottom: 0;
