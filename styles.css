@@ -23,6 +23,13 @@
   font-weight: 600;
 }
 
+html,
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background-color: #ece7e1;
   color: var(--primary-color);
@@ -66,11 +73,27 @@ i {
   justify-content: flex-start;
 }
 
+.first-nav-item {
+  animation: slide-right 2.5s 0.2s ease-in-out forwards;
+  opacity: 0;
+}
+
+.second-nav-item {
+  animation: slide-right 2.5s 0.6s ease-in-out forwards;
+  opacity: 0;
+}
+
+.third-nav-item {
+  animation: slide-right 2.5s 1s ease-in-out forwards;
+  opacity: 0;
+}
+
 .section-right {
   align-self: flex-end;
   padding-bottom: 30px;
   font-family: montserrat;
   max-width: 220px;
+  animation: appear 4s ease-in-out;
 }
 
 .name {
@@ -87,6 +110,7 @@ i {
   border-radius: 10px;
   margin: 20px;
   align-self: center;
+  animation: fade-slide-down 2.5s ease-out forwards;
 }
 
 footer {
@@ -95,6 +119,38 @@ footer {
   color: var(--primary-color);
   font-family: montserrat;
 }
+
+@keyframes appear {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    transform: translateX(-900px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+@keyframes fade-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(800px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @media (max-width: 800px) {
   .nav-item {
     font-size: 50px;
@@ -103,6 +159,7 @@ footer {
   p {
     font-size: 14px;
   }
+
   .container {
     flex-direction: column;
   }
