@@ -63,7 +63,7 @@ body {
 }
 
 .nav-item:hover {
-  color: rgb(141, 0, 0);
+  color: #333333e7;
 }
 
 .home {
@@ -101,6 +101,21 @@ body {
   max-width: 400px;
 }
 
+.project-one {
+  animation: appear 2s 1.6s ease forwards;
+  opacity: 0;
+}
+
+.project-two {
+  animation: appear 2s 1.2s ease forwards;
+  opacity: 0;
+}
+
+.project-three {
+  animation: appear 2s 0.8s ease forwards;
+  opacity: 0;
+}
+
 .name {
   font-weight: bold;
   letter-spacing: 0.3rem;
@@ -115,7 +130,7 @@ body {
   border-radius: 10px;
   margin: 20px;
   align-self: center;
-  animation: fade-slide-down 2.5s ease-out forwards;
+  animation: fade-slide-up 2.5s ease-out forwards;
 }
 
 footer {
@@ -145,7 +160,7 @@ footer {
   }
 }
 
-@keyframes fade-slide-down {
+@keyframes fade-slide-up {
   0% {
     opacity: 0;
     transform: translateY(800px);
