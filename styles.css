@@ -47,11 +47,11 @@ i {
   color: var(--primary-color);
   font-size: 30px;
   margin-right: 10px;
-  transition: all 200ms ease-in-out;
+  transition: transform 0.7s ease-in-out;
 }
 
 i:hover {
-  color: rgb(141, 0, 0);
+  transform: rotate(360deg);
 }
 
 .container {
