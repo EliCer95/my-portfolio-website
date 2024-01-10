@@ -113,7 +113,8 @@ i:hover {
   padding-bottom: 30px;
   font-family: montserrat;
   max-width: 220px;
-  animation: appear 4s ease-in-out;
+  animation: appear 1.5s 2s ease-in-out forwards;
+  opacity: 0;
 }
 
 .name {
