@@ -112,7 +112,7 @@ i:hover {
   align-self: flex-end;
   padding-bottom: 30px;
   font-family: montserrat;
-  max-width: 220px;
+  max-width: 240px;
   animation: appear 1.5s 2s ease-in-out forwards;
   opacity: 0;
 }
