@@ -116,6 +116,11 @@ body {
   opacity: 0;
 }
 
+.project-four {
+  animation: appear 2s 0.4s ease forwards;
+  opacity: 0;
+}
+
 .name {
   font-weight: bold;
   letter-spacing: 0.3rem;
@@ -124,15 +129,19 @@ body {
 }
 
 .line {
-  height: 300px;
+  height: 360px;
   width: 5px;
   background-color: var(--primary-color);
   border-radius: 10px;
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   align-self: center;
   animation: fade-slide-up 2.5s ease-out forwards;
 }
 
+.current-project {
+  opacity: 0.4;
+}
 footer {
   position: absolute;
   bottom: 0;
